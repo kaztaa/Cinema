@@ -9,7 +9,7 @@ namespace Cinema
         // Method for getting price by age
         static int GetPrice(int age)
         {
-            if (age < 10)
+            if (age < 5)
                 return 0;
             else if (age < 20)
                 return 80;
